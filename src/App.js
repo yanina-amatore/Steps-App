@@ -3,13 +3,15 @@
 export default function App(){
   return(
       <div className="steps">
-      <div>1</div>
-      <div>2</div>
-      <div>3</div>
+        <div className="numbers">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+        </div>
       <p className="message">Hello</p>
       <div className="buttons">
-        <button>Previuos</button>
-        <button>Next</button>
+        <button style={{backgroundColor: '#7950f2', color:"#fff"}}>Previuos</button>
+        <button style={{backgroundColor: '#7950f2', color:"#fff"}}>Next</button>
       </div>
     </div>
 
